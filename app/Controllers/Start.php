@@ -3,15 +3,26 @@
   namespace App\Controllers;
   use CodeIgniter\Controller;
 
-    class Start extends CI_COntroller
+  class Start extends Controller
     {
-      pubblic function index ()
+      public function index ()
       {
         echo "Start Page";
       }
-      public function showme($page = 'home')
+      public function showme($page = 'home', $name = NULL)
       {
-        // echo $page;
+              if ( ! is_file(APPPATH.'/Views/pages/'.$page.'.php'))
+              {
+                  // Whoops, we don't have a page for that!
+                  throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
+              }
+
+              $data['title'] = ucfirst($page); // Capitalize the first letter
+              $data['name'] = $name;
+
+              echo view('templates/header', $data);
+              echo view('pages/'.$page, $data);
+              echo view('templates/footer', $data);
       }
 
     }

@@ -113,3 +113,41 @@ CRITICAL - 2020-03-09 03:20:39 --> syntax error, unexpected '}', expecting ';'
 #6 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #7 C:\UwAmp\www\my-app\codeigniter\A\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 {main}
+CRITICAL - 2020-03-09 08:59:44 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\UwAmp\www\my-app\codeigniter\A\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('start')
+#1 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('start')
+#2 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UwAmp\www\my-app\codeigniter\A\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-03-09 08:59:59 --> syntax error, unexpected 'pubblic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\UwAmp\www\my-app\codeigniter\A\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('start')
+#1 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('start')
+#2 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UwAmp\www\my-app\codeigniter\A\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-03-09 09:00:00 --> syntax error, unexpected 'pubblic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\UwAmp\www\my-app\codeigniter\A\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('start')
+#1 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('start')
+#2 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UwAmp\www\my-app\codeigniter\A\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-03-09 09:00:07 --> syntax error, unexpected 'pubblic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\UwAmp\www\my-app\codeigniter\A\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Start')
+#1 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Start')
+#2 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UwAmp\www\my-app\codeigniter\A\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-03-09 09:10:20 --> Undefined variable: name
+#0 C:\UwAmp\www\my-app\codeigniter\A\app\Views\pages\alocal.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\UwAmp\\www\\my...', 1, Array)
+#1 C:\UwAmp\www\my-app\codeigniter\A\system\View\View.php(236): include('C:\\UwAmp\\www\\my...')
+#2 C:\UwAmp\www\my-app\codeigniter\A\system\Common.php(1071): CodeIgniter\View\View->render('pages/alocal', Array, true)
+#3 C:\UwAmp\www\my-app\codeigniter\A\app\Controllers\Start.php(23): view('pages/alocal', Array)
+#4 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(910): App\Controllers\Start->showme('alocal')
+#5 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Start))
+#6 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\UwAmp\www\my-app\codeigniter\A\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
