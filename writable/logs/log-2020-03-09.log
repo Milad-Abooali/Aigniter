@@ -151,3 +151,12 @@ CRITICAL - 2020-03-09 09:10:20 --> Undefined variable: name
 #6 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #7 C:\UwAmp\www\my-app\codeigniter\A\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 {main}
+CRITICAL - 2020-03-09 13:43:43 --> Invalid file: {0}
+#0 C:\UwAmp\www\my-app\codeigniter\A\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/create.php')
+#1 C:\UwAmp\www\my-app\codeigniter\A\system\Common.php(1071): CodeIgniter\View\View->render('news/create', Array, true)
+#2 C:\UwAmp\www\my-app\codeigniter\A\app\Controllers\News.php(60): view('news/create')
+#3 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(910): App\Controllers\News->create()
+#4 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\UwAmp\www\my-app\codeigniter\A\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\UwAmp\www\my-app\codeigniter\A\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

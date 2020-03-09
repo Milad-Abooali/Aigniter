@@ -9,7 +9,7 @@
                 <div class="main">
                         <?= $news_item['body'] ?>
                 </div>
-                <p><a href="<?= '/news/'.$news_item['slug'] ?>">View article</a></p>
+                <p><a href="<?= 'news/'.$news_item['slug'] ?>">View article</a></p>
 
         <?php endforeach; ?>
 
